@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/public/output.css">
+<script src="/public/main.js" defer></script>
+<script src="/public/animations-effects.js" defer></script>
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="/public/carousel.css">
+<link rel="stylesheet" href="/public/cursor.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/swiper-bundle.css">
+<link rel="stylesheet" href="/swiper-bundle.js">
+<title>Home</title>
+</head>
+<body class="bg-main-bg relative w-full">
+
+<header class="pt-10 px-3 w-full bg-second-bg pb-20">
+    <nav class="flex md:px-10 mx-auto justify-between sm:px-10 px-5">
+        <img src="/images/logo.png" id="logo" alt="" class="logo scale-125">
+            <!-- <a href="#" class="hidden md:block btn-teritary">Contact Us</a> -->
+            <div class="nav__btn flex flex-col gap-1">
+                <span class="line ln-1"></span>
+                <span class="line ln-2"></span>
+                <span class="line ln-3"></span>
+            </div>
+    </nav>
+</header>
+
+    <main class="">
+
+        <!-- HEADER TEXT + IMAGE -->
+        <section id="home" class=" bg-second-bg flex justify-start items-start relative md:pb-40 pb-28">
+            <div class="xs:px-10 px-5 mx-auto w-full flex md:flex-row flex-col-reverse gap-5">
+                <!-- Left Section -->
+                <div class="flex px-0 flex-col md:justify-start justify-center md:text-start items-center md:items-start gap-8 md:gap-5 md:space-y-3 relative my-auto md:w-3/5 w-full">
+                        <svg id="meta" class="xs:w-[300px] w-[225px]" width="125" height="auto" viewBox="0 0 646 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M88.208 22.576C93.6693 22.576 98.5333 23.728 102.8 26.032C107.067 28.2507 110.437 31.6213 112.912 36.144C115.387 40.6667 116.624 46.1707 116.624 52.656V94H105.104V54.32C105.104 47.3227 103.355 41.9893 99.856 38.32C96.4426 34.5653 91.792 32.688 85.904 32.688C79.8453 32.688 75.024 34.6507 71.44 38.576C67.856 42.416 66.064 48.0053 66.064 55.344V94H54.544V54.32C54.544 47.3227 52.7946 41.9893 49.296 38.32C45.8826 34.5653 41.232 32.688 35.344 32.688C29.2853 32.688 24.464 34.6507 20.88 38.576C17.296 42.416 15.504 48.0053 15.504 55.344V94H3.85596V23.856H15.504V33.968C17.808 30.2987 20.88 27.4827 24.72 25.52C28.6453 23.5573 32.9546 22.576 37.648 22.576C43.536 22.576 48.7413 23.8987 53.264 26.544C57.7866 29.1893 61.1573 33.072 63.376 38.192C65.3386 33.2427 68.5813 29.4027 73.104 26.672C77.6266 23.9413 82.6613 22.576 88.208 22.576Z" stroke="#5C5CAD" stroke-width="6" mask="url(#path-1-outside-1_2_2)"/>
+                        <path d="M199.731 56.24C199.731 58.4587 199.603 60.8053 199.347 63.28H143.283C143.71 70.192 146.056 75.6107 150.323 79.536C154.675 83.376 159.923 85.296 166.067 85.296C171.102 85.296 175.283 84.144 178.611 81.84C182.024 79.4507 184.414 76.2933 185.779 72.368H198.323C196.446 79.1093 192.691 84.6133 187.059 88.88C181.427 93.0613 174.43 95.152 166.067 95.152C159.411 95.152 153.438 93.6587 148.147 90.672C142.942 87.6853 138.846 83.4613 135.859 78C132.872 72.4533 131.379 66.0533 131.379 58.8C131.379 51.5467 132.83 45.1893 135.731 39.728C138.632 34.2667 142.686 30.0853 147.891 27.184C153.182 24.1973 159.24 22.704 166.067 22.704C172.723 22.704 178.611 24.1547 183.731 27.056C188.851 29.9573 192.776 33.968 195.507 39.088C198.323 44.1227 199.731 49.84 199.731 56.24ZM187.699 53.808C187.699 49.3707 186.718 45.5733 184.755 42.416C182.792 39.1733 180.104 36.7413 176.691 35.12C173.363 33.4133 169.651 32.56 165.555 32.56C159.667 32.56 154.632 34.4373 150.451 38.192C146.355 41.9467 144.008 47.152 143.411 53.808H187.699Z" stroke="#5C5CAD" stroke-width="6" mask="url(#path-1-outside-1_2_2)"/>
+                        <path d="M229.314 33.456V74.8C229.314 78.2133 230.039 80.6453 231.49 82.096C232.941 83.4613 235.458 84.144 239.042 84.144H247.618V94H237.122C230.637 94 225.773 92.5067 222.53 89.52C219.287 86.5333 217.666 81.6267 217.666 74.8V33.456H208.578V23.856H217.666V6.19199H229.314V23.856H247.618V33.456H229.314Z" stroke="#5C5CAD" stroke-width="6" mask="url(#path-1-outside-1_2_2)"/>
+                        <path d="M257.379 58.672C257.379 51.504 258.83 45.232 261.731 39.856C264.632 34.3947 268.6 30.1707 273.635 27.184C278.755 24.1973 284.43 22.704 290.659 22.704C296.803 22.704 302.136 24.0267 306.659 26.672C311.182 29.3173 314.552 32.6453 316.771 36.656V23.856H328.547V94H316.771V80.944C314.467 85.04 311.011 88.4533 306.403 91.184C301.88 93.8293 296.59 95.152 290.531 95.152C284.302 95.152 278.67 93.616 273.635 90.544C268.6 87.472 264.632 83.1627 261.731 77.616C258.83 72.0693 257.379 65.7547 257.379 58.672ZM316.771 58.8C316.771 53.5093 315.704 48.9013 313.571 44.976C311.438 41.0507 308.536 38.064 304.867 36.016C301.283 33.8827 297.315 32.816 292.963 32.816C288.611 32.816 284.643 33.84 281.059 35.888C277.475 37.936 274.616 40.9227 272.483 44.848C270.35 48.7733 269.283 53.3813 269.283 58.672C269.283 64.048 270.35 68.7413 272.483 72.752C274.616 76.6773 277.475 79.7067 281.059 81.84C284.643 83.888 288.611 84.912 292.963 84.912C297.315 84.912 301.283 83.888 304.867 81.84C308.536 79.7067 311.438 76.6773 313.571 72.752C315.704 68.7413 316.771 64.0907 316.771 58.8Z" stroke="#5C5CAD" stroke-width="6" mask="url(#path-1-outside-1_2_2)"/>
+                        <path d="M343.879 49.328C343.879 40.624 345.842 32.816 349.767 25.904C353.692 18.9067 359.026 13.4453 365.767 9.51999C372.594 5.59466 380.146 3.63199 388.423 3.63199C398.151 3.63199 406.642 5.97866 413.895 10.672C421.148 15.3653 426.439 22.0213 429.767 30.64H415.815C413.34 25.264 409.756 21.1253 405.063 18.224C400.455 15.3227 394.908 13.872 388.423 13.872C382.194 13.872 376.604 15.3227 371.655 18.224C366.706 21.1253 362.823 25.264 360.007 30.64C357.191 35.9307 355.783 42.16 355.783 49.328C355.783 56.4107 357.191 62.64 360.007 68.016C362.823 73.3067 366.706 77.4027 371.655 80.304C376.604 83.2053 382.194 84.656 388.423 84.656C394.908 84.656 400.455 83.248 405.063 80.432C409.756 77.5307 413.34 73.392 415.815 68.016H429.767C426.439 76.5493 421.148 83.1627 413.895 87.856C406.642 92.464 398.151 94.768 388.423 94.768C380.146 94.768 372.594 92.848 365.767 89.008C359.026 85.0827 353.692 79.664 349.767 72.752C345.842 65.84 343.879 58.032 343.879 49.328Z" stroke="#5C5CAD" stroke-width="6" mask="url(#path-1-outside-1_2_2)"/>
+                        <path d="M537.602 5.42399V94H525.954V27.952L496.514 94H488.322L458.754 27.824V94H447.106V5.42399H459.65L492.418 78.64L525.186 5.42399H537.602Z" stroke="#5C5CAD" stroke-width="6" mask="url(#path-1-outside-1_2_2)"/>
+                        <path d="M597.804 94.896C589.527 94.896 581.975 92.976 575.148 89.136C568.321 85.2107 562.903 79.792 558.892 72.88C554.967 65.8827 553.004 58.032 553.004 49.328C553.004 40.624 554.967 32.816 558.892 25.904C562.903 18.9067 568.321 13.488 575.148 9.64799C581.975 5.72265 589.527 3.75999 597.804 3.75999C606.167 3.75999 613.761 5.72265 620.588 9.64799C627.415 13.488 632.791 18.864 636.716 25.776C640.641 32.688 642.604 40.5387 642.604 49.328C642.604 58.1173 640.641 65.968 636.716 72.88C632.791 79.792 627.415 85.2107 620.588 89.136C613.761 92.976 606.167 94.896 597.804 94.896ZM597.804 84.784C604.033 84.784 609.623 83.3333 614.572 80.432C619.607 77.5307 623.532 73.392 626.348 68.016C629.249 62.64 630.7 56.4107 630.7 49.328C630.7 42.16 629.249 35.9307 626.348 30.64C623.532 25.264 619.649 21.1253 614.7 18.224C609.751 15.3227 604.119 13.872 597.804 13.872C591.489 13.872 585.857 15.3227 580.908 18.224C575.959 21.1253 572.033 25.264 569.132 30.64C566.316 35.9307 564.908 42.16 564.908 49.328C564.908 56.4107 566.316 62.64 569.132 68.016C572.033 73.392 575.959 77.5307 580.908 80.432C585.943 83.3333 591.575 84.784 597.804 84.784Z" stroke="#5C5CAD" stroke-width="6" mask="url(#path-1-outside-1_2_2)"/>
+                        </svg>  
+
+                        <div class="md:min-h-[130px] flex items-center justify-center">
+                            <h1 class="radial__gradient lg:max-w-[20ch] text-3xl xs:text-4xl max-w-[15ch] md:text-4xl lg:text-5xl font-extrabold typewriter text-gray-800 mx-auto md:text-start text-center typewrite" data-period="2000" data-type='[ "CATAPULTING BRANDS INTO THE SPOTLIGHT"]'>
+                        </div>
+
+                        <p class="xs:text-sm text-[0.85rem] md:text-lg md:max-w-[40ch] max-w-[35ch] lg:max-w-[55ch] md:text-start text-center text-gray-400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum distinctio veritatis.</p>
+                        
+                        <div class="flex gap-3 w-full items-start md:justify-start justify-center">
+                            <a href="#" class="btn-primary ">Work With Us</a>
+                            <a href="#" class="btn-primary">Meet The Team</a>
+                        </div>
+                    </div>
+
+
+                    <!-- Image -->
+                    <div class="flex justify-center px-12 md:px-0 md:mb-0 mb-10 items-center mx-auto lg:col-start-4 md:w-2/5 w-full row-start-1">
+                        <img src="/illustrations/header-2.svg" class="md:w-[95%] xs:max-w-[375px] sm:max-w-[350px] min-w-[200px] max-w-[100%]" alt="">
+                    </div>
+                </div>
+        </section>
+
+
+        <!-- LOGO SLIDER -->
+        <section class=" shadow-3xl shadow-main-bg">
+            <div class="slider">
+                <div class="slide-track bg-second-bg ">
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-1.svg" class="imgl" alt="">
+                    </div>
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-2.svg" class="coin" alt="">
+                    </div>
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-3.svg" class="imgl" alt="">
+                    </div>
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-4.svg" class="imgl" alt="">
+                    </div>
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-5.svg" class="textl" alt="">
+                    </div>
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-6.svg" class="textl" alt="">
+                    </div>
+
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-1.svg" class="imgl" alt="">
+                    </div>
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-2.svg" class="coin" alt="">
+                    </div>
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-3.svg" class="imgl" alt="">
+                    </div>
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-4.svg" class="imgl" alt="">
+                    </div>
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-5.svg" class="textl" alt="">
+                    </div>
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-6.svg" class="textl" alt="">
+                    </div>
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-1.svg" class="textl" alt="">
+                    </div>
+                    <div class="slide flex justify-center items-center">
+                        <img src="/images/logo-2.svg" class="textl" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="min-h-screen px-10 py-16 md:pt-40 pt-28 bg-second-bg">
+                <div class="md:mx-auto md:container flex-row justify-content-center gap-5 text-start">
+                    <div class="mb-0">
+                        <div class="header-section flex flex-col md:items-start items-center text-center md:text-start  justify-start gap-3">
+                            <h3 class="small-title text-sm text-gray-400">THIS IS OUR STORY</h3>
+                            <h2 class="md:text-6xl font-extrabold md:text-start sm:text-6xl xs:text-5xl text-5xl">About Us</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:container grid md:grid-cols-2 md:items-start items-center md:justify-start text-center md:text-start justify-center md:grid-rows-1 row-span-2 grid-rows-1 mx-auto gap-5 sm:gap-2 sm:mb-10 mb-32">
+                    <div class="flex flex-col gap-5 place-content-center justify-center items-start">
+                        <h3 class="text-2xl font-bold md:mx-0 mx-auto mt-10">Where It All Began</h3>
+                        <p class="text-gray-600 md:text-base text-sm">Having worked tirelessly as traditional marketing specialists, we grew into the cryptocurrency space with advisory support for primarily CEO-led marketing teams in start-ups, who were struggling to make an impact in the crypto-sphere. We realised that the industry is like the wild Wild West. A town without a Sheriff, it is largely unstructured, with unorganised teams struggling to fire effectively to make a difference.</p>
+                    </div>
+                    
+                    <div class="">
+                        <img src="/illustrations/about Us.svg" class="md:w-[80%] mt-10 sm:mt-16 w-full md:ml-auto max-w-[400px] md:mx-0 mx-auto" alt="">
+                    </div>
+                </div>
+
+                <div class="container grid md:grid-cols-2 md:items-start items-center md:justify-start text-center md:text-start justify-center md:grid-rows-1 row-span-2 grid-rows-1 mx-auto gap-5 mb-20 md:mb">
+                    <div class="row-start-2 md:row-start-1 mt-16 sm:mt-0 md:mt-0">
+                        <img src="/illustrations/startup.svg" class=" md:w-[80%] mt-1 sm:mt-16 w-full md:mr-auto max-w-[400px] mx-auto md:mx-0" alt="">
+                    </div>
+
+                    <div class="flex flex-col sm:gap-6 md:gap-4 gap-8 my-auto place-content-center justify-center items-start">
+                        <h3 class="text-3xl md:mx-0 mx-auto font-bold">The Beginning</h3>
+                        <p class="text-gray-600 md:text-base text-sm">So, MetaCMO was born. Delivering Digital Marketing services, our team of highly skilled and dynamic professionals work with you to develop your business and achieve your potential in the marketplace. Delivering fairly priced, intuitive and fully inclusive services, our goal is to become part of your team, and deliver you a comprehensive solution that drives your business forward.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SVG WAVE -->
+        <div class="relative lg:mb-[50vh] sm:mb-[40vh] mb-[30vh]">
+            <div class="svg"></div>
+        </div>
+            
+        <!-- SERVICES -->
+        <section id="Services" class="relative  sm:pt-40 pt-20 rounded-b-[75px] rounded-t-[75px]">
+            
+            <!-- TITLE -->
+            <div class="md:px-7 mx-5 flex flex-col space-y-5 ">
+
+                <div class="row justify-content-center text-center">
+                    <div class="mb-16">
+                        <div class="header-section flex flex-col gap-3">
+                            <h3 class="small-title text-gray-400">A BRIEF LOOK INTO OUR </h3>
+                            <h2 class="lg:text-6xl md:text-5xl sm:text-4xl text-4xl font-extrabold mx-auto text-second-bg">High Quality Services</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BUTTONS & HEADINGS -->
+                <div class="flex justify-between items-center md:max-w-full mt-5">
+                    <div class="flex gap-3 list">
+                        <div data-history="1" id="blockchain" class="btn-primary-selected">Blockchain</div>
+                        <div data-history="2" id="tokenomics" class="btn-secondary-selected lg:block hidden">Tokenomic Production</div>
+                        <div data-history="3" id="whitepaper" class="btn-secondary-selected lg:block hidden">Whitepaper</div>
+                        <div data-history="4" id="litepaper" class="btn-secondary-selected lg:block hidden">Litepaper Creation</div>
+                        <div data-history="5" id="audits" class="btn-secondary-selected lg:block hidden">Audits & Security</div>
+                    </div>
+
+                    <!-- BUTTONS -->
+                    <div class="flex space-x-2 h-full">
+                        <div class="w-full h-full">
+                            <button type="" id="prevBtn" disabled="false" class="btn-secondary-round bg-btn-dark w-fit flex items-center justify-center aspect-square text-center "><i class='my-auto text-2xl w-fit bx bx-chevron-left'></i></button>
+                        </div>
+                        
+                        <div class="w-full h-full">
+                            <button id="nextBtn" type="button" disabled="false" class=" btn-secondary-round w-fit flex items-center bg-btn-dark justify-center aspect-square text-center "><i class='my-auto text-2xl w-fit bx bx-chevron-right'></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- //// -->
+                <!-- Grid -->
+                <div class="grid grid-cols-6 md:grid-rows-3 md:max-w-full mx-auto max-w-[450px] grid-rows-8 row-span-2 md:row-span-1 gap-5">
+                    <!-- ////////// -->
+                    <!-- First Grid -->
+                    <div class=" shadow-dark md:col-span-4 col-span-6 md:col-start-1 md:row-start-1 md:row-span-1 row-span-2 bg-second-bg  w-full flex rounded-3xl p-7 md:p-10">
+
+                        <!-- ///////////// -->
+                        <!-- SEO MARKETING -->
+                            <div class="flex md:flex-row flex-col-reverse gap-8">
+                                <div class="h-full flex flex-col justify-evenly gap-3 md:w-2/3">
+                                    <div class="flex items-center justify-start text-5xl text-btn-dark">
+                                        <i class='bx bxs-receipt'></i>
+                                    </div>
+                                    
+                                    <div class="flex flex-col gap-5">
+                                        <h3 class="text-2xl font-semibold text-gray-800">SEO Marketing</h3>
+                                        <p class="sm:text-sm text-xs md:max-w-[45ch] lg:max-w-[60ch] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolorem quos placeat cumque enim, omnis, sint eaque quaerat eius voluptates obcaecati mollitia commodi.</p>
+                                        <div class="flex justify-start items-center">
+                                            <a href="" class="btn-teritary text-white">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="md:w-1/3 flex justify-center items-center">
+                                    <img src="/illustrations/SEO.svg" class=" xs:max-w-[250px] md:max-w-[100%] max-w-[100%]" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ///////////////// -->
+                        <!-- RESEARCH & AUDITS -->
+                        <div class="shadow-dark lg:col-span-2 lg:col-start-1 md:col-span-2 col-span-6 lg:row-start-2 row-span-1 bg-second-bg w-full rounded-3xl p-7 md:p-10">
+                            <div class="flex md:flex-row flex-col gap-8 h-full">
+                                <div class="h-full flex flex-col justify-evenly gap-3">
+                                    <div class="flex items-center justify-start text-5xl text-btn-dark">
+                                        <i class='bx bx-check-shield'></i>
+                                    </div>
+                                    
+                                    <div class="flex flex-col gap-5">
+                                        <h3 class="text-2xl font-semibold text-gray-800">Research & Audits</h3>
+                                        <p class="sm:text-sm text-xs text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolorem quos placeat cumque enim, omnis, sint eaque quaerat eius voluptates obcaecati mollitia commodi.</p>
+                                        <div class="flex justify-start items-center">
+                                            <a href="" class="btn-teritary text-white">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- ////////////// -->
+                    <!-- ADVERTISEMENTS -->
+                    <div class=" shadow-dark md:col-span-2 col-span-6 md:col-start-5 md:row-start-1 md:row-span-1 row-span-2 bg-second-bg w-full flex rounded-3xl p-7 md:p-10 mx-auto">
+                        <div class="flex flex-row gap-8 h-full">
+                            <div class="h-full flex flex-col justify-evenly gap-3">
+                                <div class="flex items-center justify-start text-5xl text-btn-dark">
+                                    <i class='bx bx-check-shield'></i>
+                                </div>
+                                
+                                <div class="flex flex-col gap-5">
+                                    <h3 class="text-2xl font-semibold text-gray-800">Advertisements</h3>
+                                    <p class="sm:text-sm text-xs text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolorem quos placeat cumque enim, omnis, sint eaque quaerat eius voluptates obcaecati mollitia commodi.</p>
+                                    <div class="flex justify-start items-center">
+                                        <a href="" class="btn-teritary text-white">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- /////////////////// -->
+                    <!-- BRANDING & COMMUNITY -->
+                    <div class=" shadow-dark lg:col-span-4 md:col-span-4 col-span-6 md:row-span-1 row-span-2 bg-second-bg w-full flex rounded-3xl">
+                        <div class="flex md:flex-row flex-col-reverse gap-8 h-full p-7 md:p-10">
+                            <div class="h-full flex flex-col justify-evenly gap-3 md:w-2/3">
+                                <div class="flex items-center justify-start text-5xl text-btn-dark">
+                                    <i class='bx bxs-receipt'></i>
+                                </div>
+                                
+                                <div class="flex flex-col gap-5 text-start">
+                                    <h3 class="text-2xl font-semibold text-start text-gray-800">Branding & Community Management</h3>
+                                    <p class="sm:text-sm text-xs md:max-w-[45ch] text-gray-500 lg:max-w-[60ch]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolorem quos placeat cumque enim, omnis, sint eaque quaerat eius voluptates obcaecati mollitia commodi.</p>
+                                    <div class="flex justify-start items-center">
+                                        <a href="" class="btn-teritary text-white">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="md:w-1/3 flex justify-center items-center">
+                                <img src="/illustrations/ads.svg" class="xs:max-w-[250px] md:max-w-[100%] max-w-[100%]" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- /////////////////// -->
+                    <!-- WEBSITE DEVELOPMENT -->
+                    <div class="shadow-dark lg:col-span-6 col-span-6 row-span-1 bg-second-bg w-full rounded-3xl  p-7 md:p-10">
+
+                        <!-- FLEXBOX WITH IMAGE -->
+                        <div class="flex md:flex-row flex-col-reverse gap-8 justify-center items-center my-auto h-full">
+
+                                <!-- FLEXBOX WITHOUT IMAGE -->
+                                <div class="h-full flex flex-col justify-evenly gap-5 md:w-2/3 w-full my-auto">
+
+                                    <!-- ICON -->
+                                    <div class="flex items-center justify-start text-5xl text-btn-dark">
+                                        <i class='bx bx-laptop'></i>
+                                    </div>
+                                    
+                                    <!-- TEXT CONTENT & BUTTON-->
+                                    <div class="flex flex-col gap-8">
+                                        <h3 class="text-3xl font-semibold text-gray-800">Website Development</h3>
+                                        <p class="sm:text-sm text-xs max-w-[90ch] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolorem quos placeat cumque enim, omnis, sint eaque quaerat eius voluptates obcaecati mollitia commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolorem quos placeat cumque enim, omnis, sint eaque quaerat eius voluptates obcaecati mollitia commodi.</p>
+                                        <div class="flex justify-start items-center">
+                                            <a href="" class="btn-teritary text-white">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            <!-- IMAGE -->
+                            <div class="md:w-1/3 w-full flex justify-center items-center">
+                                <img src="/illustrations/Website.svg" class="xs:max-w-[250px] md:max-w-[100%] max-w-[100%]" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  SVG LINE -->
+        <section class="relative h-[30vh] animation">
+            <div class="line-container">
+                <!-- Preserve aspect ration to prevent it from squishing -->
+                <svg width="4" height="841" viewBox="0 0 4 841" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 0V841.5" stroke="#e2eafc" stroke-width="200"/>
+                    </svg>                            
+            </div>
+        </section>
+
+        <!-- TEAM SECTION -->
+        <section class="flex  justify-center items-center lg:flex ">
+            <div class="w-full flex flex-col gap-3 bg-main-bg p-10 mx-10 rounded-3xl shadow-2xl">
+                <div class="flex justify-center items-center flex-col space-y-2 mb-14">
+                    <p class="text-gray-300 sm:text-sm text-xs">A LOOK AT OUR EXPERTS</p>
+                    <h1 class="lg:text-6xl md:text-5xl sm:text-4xl text-3xl text-center w-full font-extrabold mx-auto text-second-bg">Meet The Team</h1>
+                </div>
+
+                <div class="flex justify-around">
+                    <section class="relative">
+                        <div class="container mx-auto">
+                            <div class="relative grid md:grid-cols-4 grid-cols-2 grid-rows-2 md:grid-rows-1 w-full xs:gap-20 lg:gap-[4.75rem] md:gap-40 gap-40 justify-between">
+
+                                <div class="flex flex-col md:gap-10 gap-7 xs:scale-[115%] scale-[100%]  justify-center items-center">
+                                    <div class="relative">
+                                        <div class="md:w-40 sm:w-36 w-[7.5rem] bg-linkedin aspect-square md:border-[10px] border-[5px] team border-linkedin  rounded-full overflow-hidden relative">
+                                            <img src="/images/Person 1.jpg" class="" alt="">
+                                        </div>
+                                        
+                                        <div class="">
+                                            <a href="" class=""><i class='linkedin bx bxl-linkedin-square absolute hover:text-blue-500 text-[#728dfe] bg-linkedin md:rounded-xl rounded-lg md:p-1.5 md:text-3xl p-1 text-2xl -bottom-[5%] left-1/2 -translate-x-1/2 z-30 hover:bg-white'></i></a>   
+                                        </div>
+                                    </div>
+
+                                    <h3 class="w-[fit-content] whitespace-nowrap text-center small-title text-gray-300 md:text-lg text-sm md:font-light font-semibold">Luke Gallagher</h3>
+                                </div>
+                                <div class="flex flex-col md:gap-10 gap-7 xs:scale-[115%] scale-[100%]  justify-center items-center">
+                                    <div class="relative">
+                                        <div class="md:w-40 sm:w-36 w-[7.5rem] bg-white aspect-square md:border-[10px] border-[5px] team border-linkedin  rounded-full overflow-hidden relative flex justify-center items-center">
+                                            <img src="/images/Person-2.png" class="w-[100px] mt-5" alt="">
+                                            
+                                        </div>
+                                        
+                                        <div class="">
+                                            <a href="" class=""><i class='linkedin  bx bxl-linkedin-square absolute hover:text-blue-500 text-[#728dfe] bg-linkedin md:rounded-xl rounded-lg md:p-1.5 md:text-3xl p-1 text-2xl -bottom-[5%] left-1/2 -translate-x-1/2 z-30 hover:bg-white'></i></a>   
+                                        </div>
+                                        
+                                    </div>
+                                    <h3 class="small-title w-[fit-content] whitespace-nowrap text-gray-300 md:font-light font-semibold md:text-lg text-sm">Craig McNerlin</h3>
+                                </div>
+
+                                <div class="-translate-y-16 xs:-translate-y-7 md:translate-y-0 flex flex-col md:gap-10 gap-7 xs:scale-[115%] scale-[100%]  justify-center items-center">
+                                    <div class="relative">
+                                        <div class=" md:w-40 sm:w-36 w-[7.5rem] bg-linkedin aspect-square md:border-[10px] border-[5px] team border-linkedin  rounded-full overflow-hidden">
+                                            <img src="/images/Person 1.jpg" class="" alt="">
+                                        </div>
+                                        
+                                        <div class="flex absolute gap-5 ml-[15%] -bottom-[5%] left-1/2 -translate-x-1/2">
+                                            <a href="" class=""><i class='bg-linkedin linkedin bx bxl-linkedin-square  hover:text-blue-500 text-[#728dfe] border-linkedin md:rounded-xl rounded-lg md:p-1.5 md:text-3xl p-1 text-2xl -bottom-[5%] left-1/2 -translate-x-1/2 z-30 hover:bg-white'></i></a>   
+                                            
+                                            <a href="" class=""><i class='bg-linkedin linkedin bx bxl-telegram  hover:text-blue-500 text-[#728dfe] border-linkedin md:rounded-xl rounded-lg md:p-1.5 md:text-3xl p-1 text-2xl -bottom-[5%] left-1/2 -translate-x-1/2 z-30 hover:bg-white'></i></a>   
+                                        </div>
+                                    </div>
+                                    <h3 class="small-title w-[fit-content] whitespace-nowrap text-gray-300 md:font-light font-semibold md:text-lg text-sm">Luke Gallagher</h3>
+                                </div>
+
+
+                                <div class="flex -translate-y-16 xs:-translate-y-7 md:translate-y-0  flex-col md:gap-10 xs:scale-[115%] scale-[100%]  gap-7 justify-center items-center">
+                                    <div class="relative">
+                                        <div class="md:w-40 sm:w-36 w-[7.5rem] bg-white aspect-square md:border-[10px] border-[5px] team border-linkedin  rounded-full overflow-hidden relative flex justify-center items-center">
+                                            <img src="/images/Person-2.png" class="w-[100px] mt-5" alt="">
+                                        </div>
+                                        
+                                        <div class="">
+                                            <a href="" class=""><i class='linkedin bx bxl-linkedin-square absolute hover:text-blue-500 text-[#728dfe] bg-linkedin md:rounded-xl rounded-lg md:p-1.5 md:text-3xl p-1 text-2xl -bottom-[5%] left-1/2 -translate-x-1/2 z-30 hover:bg-white'></i></a>   
+                                        </div>
+                                        
+                                    </div>
+                                    <h3 class="small-title w-[fit-content] whitespace-nowrap text-gray-300 md:font-light font-semibold md:text-lg text-sm">Craig McNerlin</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    </div>
+                </div>
+        </section>
+
+        <!-- SVG LOGO -->
+        <section class="relative animation w-full my-20">
+            <div class="max-w-full w-full flex justify-center opacity-30 overflow-hidden items-center">
+            <div class="opacity-30 scale-150">
+                <!-- Preserve aspect ration to prevent it from squishing -->
+            <svg class="" width="960px" height="130" preserverAspectRatio="xMidYMax meet" viewBox="0 0 1440 128" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path d="M770 90L722.355 117.5C719.855 117.5 724.855 118 719.355 117.5C714.955 117.1 715.188 112.667 715.855 110.5L751.855 88.5C752.655 83.7 749.188 83.5 747.355 84L703.355 108C698.155 108 698.521 103.333 699.355 101L734.355 80C735.555 74.4 731.855 74 729.855 74.5C717.355 81.5 692.055 95.7 690.855 96.5C689.355 97.5 687.355 98.5 687.355 98.5C687.355 98.5 685.355 99 682.855 96.5C680.855 94.5 682.021 92 682.855 91C712.688 73.6667 772.755 38.6 774.355 37C775.955 35.4 775.021 33.3333 774.355 32.5L720.855 2L667.355 33C662.855 35.5 669 38 671.5 39L720.855 11C726.455 11.8 725.855 16.3333 724.855 18.5L689.355 39C687.755 45 691.688 45.8333 693.855 45.5L736.855 21C743.655 21.4 742.688 26.1667 741.355 28.5L707.855 48L706.855 50C705.655 54 709.021 54.6667 710.855 54.5L711.855 54L754.355 30.5C759.955 31.7 759.355 36 758.355 38C729.021 54.6667 669.755 88.6 667.355 91C664.955 93.4 666.355 95.6667 667.355 96.5L718.355 126C719.955 127.2 721.688 126.5 722.355 126L773.855 95.5C774.545 95.155 775.077 94.8194 775.482 94.5M770 90C771.5 90.5 774.355 92 775.482 94.5M770 90C771.584 89.3333 774.855 92 775.482 94.5M666.855 76.5C663.855 72 669.45 67.3145 673.355 72C675.855 75 671.355 81.5 666.855 76.5ZM677.855 46L666.355 53C665.688 55 665.455 59 669.855 59L682.355 51.5C682.855 49.3333 682.655 45.2 677.855 46ZM695.355 55L679.855 64C679.188 65.6667 678.855 69.2 682.855 70L683.855 70L699.855 61C700.855 58.6667 701.455 54.2 695.855 55L695.355 55ZM760.855 65L745.355 74C743.021 74.1667 738.855 73.2 740.855 68L756.355 59C758.688 58.3333 762.855 58.6 760.855 65ZM769.855 70.5L758.855 76.5C758.021 78.3333 757.455 82.2 761.855 83L762.855 83L774.855 76.5C775.521 74.3333 775.655 70 770.855 70L769.855 70.5Z" stroke="white" stroke-width=".15"/>
+                <g filter="url(#filter0_d_0_1)">
+                <path d="M630 66.5H648.5C653.3 64.1 650.5 61.8333 648.5 61H-2V66.5H630Z" stroke="white" stroke-width="3" shape-rendering="crispEdges"/>
+                </g>
+                <g filter="url(#filter1_d_0_1)">
+                <path d="M810.15 66.5H791.65C786.85 64.1 789.65 61.8333 791.65 61H1442.15V66.5H810.15Z" stroke="white" stroke-width="3" shape-rendering="crispEdges"/>
+                </g>
+                <defs>
+                <filter id="filter0_d_0_1" x="-7.25" y="59.75" width="663.65" height="16" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="2"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+                </filter>
+                <filter id="filter1_d_0_1" x="783.75" y="59.75" width="663.65" height="16" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dy="4"/>
+                <feGaussianBlur stdDeviation="2"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+                </filter>
+                </defs>
+                </svg>
+            </div>           
+            </div>
+        </section>
+
+        <!-- EXPERIENCES (ICONS) TITLE -->
+        <section>
+            <div class="row justify-content-center text-center">
+                <div class="my-10 md:my-20">
+                    <div class="header-section flex flex-col gap-3">
+                        <h3 class="small-title text-gray-400 sm:text-base text-xs">MAKE A RETURN ON YOUR INVESTMENT</h3>
+                        <h2 class="md:text-6xl text-4xl max-w-[10ch] sm:max-w-full font-bold mx-auto text-second-bg">Dont Just Trust, Verify</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- EXPERIENCES (ICONS) -->
+        <section class="relative mx-auto h-[65vh] sm:h-[75vh] md:h-[80vh] rounded-3xl px-6 w-full md:max-w-full max-h-[500px] xs:max-h-full max-w-[400px] sm:max-w-[700px] lg:max-h-[500px]">
+            <div class="h-full bg-second-bg rounded-3xl flex flex-col lg:gap-10 gap-0 p-10">
+
+                <div class="flex flex-col justify-center items-center gap-1">
+                    <p class="text-gray-400 sm:text-lg text-sm ">Subtitle here</p>
+                    <h1 class="lg:text-5xl md:text-5xl text-center sm:text-4xl xs:text-3xl text-[1.25rem] font-bold text-gray-800">Our Experiences</h1>
+                </div>
+
+                <div class="swiper-section my-auto h-full">
+
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <!-- Crypto -->
+                            <div class="swiper-slide">
+                                <div class="flex flex-col justify-center items-center text-center lg:w-[100px] md:w-[100px] w-[90px] gap-5">
+                                    <div class="flex flex-col justify-center items-center gap-3 bg-gray-800 shadow-2xl aspect-square rounded-full lg:w-[100px] md:w-[100px] w-[90px] ">
+                                        <i class='text-btn-dark bx bxl-bitcoin  lg:text-[3rem] text-[3.5rem]'></i>
+                                    </div>
+
+                                    <div class="flex flex-col justify-center items-center gap-2">
+                                        <h1 class="font-extrabold text-3xl text-gray-700">700+</h1>
+                                        <p class="text-center text-gray-700 text-sm whitespace-nowrap">Crypto Services</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Audits -->
+                            <div class="swiper-slide">
+                                <div class="flex flex-col justify-center items-center text-center lg:w-[100px] md:w-[100px] w-[90px] gap-5">
+                                    <div class="flex flex-col justify-center items-center gap-3 bg-gray-800 shadow-2xl aspect-square rounded-full lg:w-[100px] md:w-[100px] w-[90px] ">
+                                        <i class='bx bxs-check-shield text-[3.5rem] lg:text-[3rem] text-btn-dark' ></i>
+                                    </div>
+
+                                    <div class="flex flex-col justify-center items-center gap-2">
+                                        <h1 class="font-extrabold text-2xl text-gray-700">Premium</h1>
+                                        <p class="text-center text-gray-700 text-sm whitespace-nowrap">Audits Executed</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Marketing -->
+                            <div class="swiper-slide">
+                                <div class="flex flex-col justify-center items-center text-center lg:w-[100px] md:w-[100px] w-[90px] gap-5">
+                                    <div class="flex flex-col justify-center items-center gap-3 bg-gray-800 shadow-2xl aspect-square rounded-full lg:w-[100px] md:w-[100px] w-[90px] ">
+                                        <i class='bx bx-line-chart text-[3.5rem] lg:text-[3rem] text-btn-dark'></i>
+                                    </div>
+
+                                    <div class="flex flex-col justify-center items-center gap-2">
+                                        <h1 class="font-extrabold text-3xl text-gray-700">250+</h1>
+                                        <p class="text-center text-gray-700 text-sm whitespace-nowrap">Marketing Campaigns</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Copyright -->
+                            <div class="swiper-slide">
+                                <div class="flex flex-col justify-center items-center text-center lg:w-[100px] md:w-[100px] w-[90px] gap-5">
+                                    <div class="flex flex-col justify-center items-center gap-3 bg-gray-800 shadow-2xl aspect-square rounded-full lg:w-[100px] md:w-[100px] w-[90px] ">
+                                        <i class='bx bxs-file text-[3.5rem] lg:text-[3rem] text-btn-dark'></i>
+                                    </div>
+
+                                    <div class="flex flex-col justify-center items-center gap-2">
+                                        <h1 class="font-extrabold text-3xl text-gray-700">1000+</h1>
+                                        <p class="text-center text-gray-700 text-sm whitespace-nowrap">Copyright Rendered</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Articles -->
+                            <div class="swiper-slide">
+                                <div class="flex flex-col justify-center items-center text-center lg:w-[100px] md:w-[100px] w-[90px] gap-5">
+                                    <div class="flex flex-col justify-center items-center gap-3 bg-gray-800 shadow-2xl aspect-square rounded-full lg:w-[100px] md:w-[100px] w-[90px] ">
+                                        <i class='bx bxs-news text-[3.5rem] lg:text-[3rem] text-btn-dark'></i>
+                                    </div>
+
+                                    <div class="flex flex-col justify-center items-center gap-2">
+                                        <h1 class="font-extrabold text-3xl text-gray-700">20+</h1>
+                                        <p class="text-center text-gray-700 text-sm whitespace-nowrap">Articles Published</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Community Management -->
+                            <div class="swiper-slide">
+                                <div class="flex flex-col justify-center items-center text-center lg:w-[100px] md:w-[100px] w-[90px] gap-5">
+                                    <div class="flex flex-col justify-center items-center gap-3 bg-gray-800 shadow-2xl aspect-square rounded-full lg:w-[100px] md:w-[100px] w-[90px] ">
+                                        <i class='bx bxs-chat text-[3.5rem] lg:text-[3rem] text-btn-dark'></i>
+                                    </div>
+
+                                    <div class="flex flex-col justify-center items-center gap-2">
+                                        <h1 class="font-extrabold text-3xl text-gray-700">700+</h1>
+                                        <p class="text-center text-gray-700 text-sm whitespace-nowrap">Communities Managed</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+        <!-- SVG WAVE 2 -->
+        <div class="relative h-[20vh] sm:h-[30vh] md:h-[50vh]">
+            <div class="svg-2"></div>
+        </div>
+            
+        </main>
+
+    <!-- FOOTER MENU -->
+    <footer id="site-footer" class="">
+        <section class="horizontal-footer-section" id="footer-top-section">
+            <div id="footer-logo" class="flex md:justify-start justify-center md:opacity-100 opacity-40">
+                <picture class="max-w-[150px]">
+                    <img src="/images/logo.png" id="logo" alt="" class="scale-150">
+                </picture>
+            </div>
+            <div id="footer-top-menu-container" class="mx-auto flex flex-col md:justify-start md:text-start text-center justify-center" role="menubar">
+                <ul id="footer-top-menu" role="menu">
+                    <li class="footer-top-menu-item" role="menuitem">
+                        <a href="#" class="footer-top-menu-link">Home</a>
+                    </li>
+                    <li class="footer-top-menu-item footer-top-menu-item-active" role="menuitem">
+                        <a href="#" class="footer-top-menu-link">Web development</a>
+                    </li>
+                    <li class="footer-top-menu-item" role="menuitem">
+                        <a href="#" class="footer-top-menu-link">SEO</a>
+                    </li>
+                    <li class="footer-top-menu-item" role="menuitem">
+                        <a href="#" class="footer-top-menu-link">UI/UX</a>
+                    </li>
+                </ul>
+                <div id="footer-buttons-container" class="md:hidden block pt-5">
+                    <a href="#" class="btn-primary btn text-white" role="button">View our Projects</a>
+                </div>
+            </div>
+            <div id="footer-buttons-container" class="hidden md:block">
+                <a href="#" class="btn-primary btn text-white" role="button">View our Projects</a>
+            </div>
+        </section>
+    
+        <section class="horizontal-footer-section" id="footer-middle-section">
+            <div id="footer-about" class="footer-columns footer-columns-large md:text-start text-center flex flex-col md:justify-start justify-center">
+                <h1>Our Address</h1>
+                <address>
+                    <div class="flex gap-2 justify-start items-center">
+                        <span><i class='bx bx-map-pin'></i></span>
+                        <p>30/20, Lost Town street, LA, USA</p>
+                    </div>
+                    <div class="flex gap-2 justify-start items-center">
+                        <span><i class='bx bxs-phone'></i></span>
+                        <p>7 (800) 555–35–35</p>
+                    </div>
+
+                    <div class="flex gap-2 justify-start items-center">
+                        <span><i class='bx bxs-envelope'></i></span>
+                        <p>noreply@reply.io</p>
+                    </div>
+
+                    <div class="flex gap-2 justify-start items-center">
+                        <span><i class='bx bxs-time-five' ></i></span>
+                        <p>8:00 AM – 8:00 PM</p>
+                    </div>
+
+                </address>
+                <h1> Our Newsletter</h1>
+                <div class="">
+                    <a href="#" class="btn-secondary btn text-gray-600 hover:text-white" role="button" role="button">Subscribe</a>
+                </div>
+            </div>
+            <div class="footer-columns">
+                <h1>Overview</h1>
+                <ul class="footer-column-menu" role="menu">
+                    <li class="footer-column-menu-item" role="menuitem">
+                        <a href="#" class="footer-column-menu-item-link">Services </a>
+                    </li>
+                    <li class="footer-column-menu-item" role="menuitem">
+                        <a href="#" class="footer-column-menu-item-link">Pricing</a>
+                    </li>
+                    <li class="footer-column-menu-item" role="menuitem">
+                        <a href="#" class="footer-column-menu-item-link">Portfolio</a>
+                    </li>
+                    <li class="footer-column-menu-item" role="menuitem">
+                        <a href="#" class="footer-column-menu-item-link">News</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-columns">
+                <h1>Resources</h1>
+                <ul class="footer-column-menu" role="menu">
+                    <li class="footer-column-menu-item" role="menuitem">
+                        <a href="#" class="footer-column-menu-item-link">FAQ</a>
+                    </li>
+                    <li class="footer-column-menu-item" role="menuitem">
+                        <a href="#" class="footer-column-menu-item-link">Media</a>
+                    </li>
+                    <li class="footer-column-menu-item" role="menuitem">
+                        <a href="#" class="footer-column-menu-item-link">Guides</a>
+                    </li>
+                    <li class="footer-column-menu-item" role="menuitem">
+                        <a href="#" class="footer-column-menu-item-link">Free Resources</a>
+                    </li>
+                    <li class="footer-column-menu-item" role="menuitem">
+                        <a href="#" class="footer-column-menu-item-link">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-columns">
+                <h1>Information</h1>
+                <ul class="footer-column-menu" role="menu">
+                    <li class="footer-column-menu-item" role="menuitem">
+                        <a href="#" class="footer-column-menu-item-link">About Us</a>
+                    </li>
+                    <li class="footer-column-menu-item" role="menuitem">
+                        <a href="#" class="footer-column-menu-item-link">Terms of Use</a>
+                    </li>
+                    <li class="footer-column-menu-item">
+                        <a href="#" class="footer-column-menu-item-link" role="menuitem">Legal Information</a>
+                    </li>
+                    <li class="footer-column-menu-item" role="menuitem">
+                        <a href="#" class="footer-column-menu-item-link">Message Us</a>
+                    </li>
+                    <li class="footer-column-menu-item" role="menuitem">
+                        <a href="#" class="footer-column-menu-item-link">Leave a Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="horizontal-footer-section flex justify-between" id="footer-bottom-section">
+            <div id="footer-copyright-info">
+                &copy; MetaCMO Inc. 2022. All rights reserved.
+            </div>
+            <div id="footer-social-buttons" class="flex justify-center gap-3 space-x-0">
+                <div class="">
+                    <i class='text-3xl bx bxl-telegram btn-primary-round'></i>
+                </div>
+                
+                <div class="">
+                    <i class='text-3xl bx bxl-instagram-alt btn-primary-round'></i>
+                </div>
+
+                <div class="">    
+                    <i class='text-3xl bx bxl-youtube btn-primary-round'></i>
+                </div>
+
+                <div class="">
+                    <i class='text-3xl bx bxl-twitter btn-primary-round'></i>
+                </div>
+            </div>
+        </section>
+    
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    grid: {
+        rows: 1,
+    },
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        640: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        },
+        768: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+        },
+        1024: {
+        slidesPerView: 6,
+        grid: {
+        rows: 1,
+        },
+        spaceBetween: 25,
+        },
+    }
+    });
+</script>
+        
+        
+
+</body>
+</html>
