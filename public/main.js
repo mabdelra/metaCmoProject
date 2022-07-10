@@ -130,11 +130,11 @@ const list = document.querySelector('.list').children
 const listCount = document.querySelector('.list').childElementCount
 
 const buttonPosition = () => {
-  if(blockchain.classList.contains('btn-primary-selected')){
+  if(blockchain.className === 'btn-primary-selected'){
     prevBtn.disabled = true;
     console.log("Previous button has been disabled");
   }
-  if(audits.classList.contains('btn-primary-selected')){
+  if(audits.className === 'btn-primary-selected'){
     nextBtn.disabled = true;
     console.log("Next button has been disabled");
   }
